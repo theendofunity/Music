@@ -13,6 +13,7 @@
 		D8B9D0E5280DD3100099EF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B9D0E4280DD3100099EF4C /* Assets.xcassets */; };
 		D8B9D0E8280DD3100099EF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B9D0E6280DD3100099EF4C /* LaunchScreen.storyboard */; };
 		D8B9D0F0280DD3900099EF4C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B9D0EF280DD3900099EF4C /* MainTabBarController.swift */; };
+		D8B9D0F2280DD6B60099EF4C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B9D0F1280DD6B60099EF4C /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D8B9D0E7280DD3100099EF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B9D0E9280DD3100099EF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B9D0EF280DD3900099EF4C /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		D8B9D0F1280DD6B60099EF4C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D8B9D0EF280DD3900099EF4C /* MainTabBarController.swift */,
 				D8B9D0DB280DD30F0099EF4C /* AppDelegate.swift */,
 				D8B9D0DD280DD30F0099EF4C /* SceneDelegate.swift */,
+				D8B9D0F1280DD6B60099EF4C /* SearchViewController.swift */,
 				D8B9D0DF280DD30F0099EF4C /* ViewController.swift */,
 				D8B9D0E4280DD3100099EF4C /* Assets.xcassets */,
 				D8B9D0E6280DD3100099EF4C /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B9D0F2280DD6B60099EF4C /* SearchViewController.swift in Sources */,
 				D8B9D0E0280DD30F0099EF4C /* ViewController.swift in Sources */,
 				D8B9D0DC280DD30F0099EF4C /* AppDelegate.swift in Sources */,
 				D8B9D0F0280DD3900099EF4C /* MainTabBarController.swift in Sources */,
