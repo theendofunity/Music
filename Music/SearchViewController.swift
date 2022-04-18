@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class SearchViewController: UITableViewController {
     let id = "CellId"
@@ -52,5 +53,10 @@ class SearchViewController: UITableViewController {
 
 extension SearchViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        let url = "https://itunes.apple.com/search?term=\(searchText)"
+        
+        AF.request(url).responseData(completionHandler: { data in
+            
+        })
     }
 }
